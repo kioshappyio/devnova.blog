@@ -94,7 +94,7 @@
       }
 
       try {
-        const response = await fetch(`../../asset/blog/${postFile}`);
+        const response = await fetch(`../asset/blog/${postFile}`);
         if (!response.ok) throw new Error('Gagal memuat artikel');
         const markdown = await response.text();
         document.getElementById('blogContent').innerHTML = marked.parse(markdown);
