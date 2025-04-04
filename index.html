@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+      .navbar-brand {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+      }
+
+      .navbar-brand img {
+        display: block;
+        line-height: 0;
+      }
+    </style>
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-dark">
+    
+<!-- Ini navbar woy -->
+    <nav class="navbar navbar-dark bg-dark text-light sticky-top">
+  <div class="container-fluid">
+    <a id="NavBar" class="navbar-brand" href="#">
+      <img src="asset/image/logo.svg" alt="DevNova Logo" style="height: 30px; margin-right: 10px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Others
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/contact">Contact</a></li>
+            <li><a class="dropdown-item" href="/galeri">Galeri</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/sosial">Sosial</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Navbar end -->
+
+    <div class="container-fluid text-center text-white" style="height: 100vh">
+      
+<!-- carousel start -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/asset/image/foto-kamu1.jpg" id="foto1" class="d-block w-100" alt="alternatif" style="height: 400px; object-fit: cover">
+      <div class="carousel-caption">
+        <h5 id="titleFoto1">Masa Depan Kendaraan dengan Teknologi Augmented Reality</h5>
+        <p id="deskripsiFoto1">Seorang pengguna VR berinteraksi dengan antarmuka holografik untuk memantau performa kendaraan secara real-time, menggabungkan kecanggihan AR dan AI dalam otomotif.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/asset/image/foto-kamu2.jpg" class="d-block w-100" alt="alternatif" style="height: 400px; object-fit: cover">
+      <div class="carousel-caption">
+        <h5>Interaksi Virtual dengan Teknologi AR</h5>
+        <p>Seorang pria memakai headset VR di ruang kerja modern, berinteraksi dengan elemen holografik, menciptakan pengalaman realitas virtual yang imersif.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/asset/image/foto-kamu3.jpg" class="d-block w-100" alt="alternatif" style="height: 400px; object-fit: cover">
+      <div class="carousel-caption">
+        <h5>Antarmuka Masa Depan dengan Teknologi AR</h5>
+        <p>Seorang pria menggunakan headset VR untuk berinteraksi dengan tampilan holografik futuristik, menunjukkan integrasi canggih antara augmented reality dan data digital.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- carousel end -->
+
+      <div class="row align-items-center mt-4">
+        <div class="col-12">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWl1c3J5d3Y5dGd0dXJ6bWxxNHJtY2Z6N2N6ZzZvYjZ3NWV6dG5xbiZlbnQ9Zw/qgQUggAC3Pfv687qPC/giphy.gif" alt="my-img" height="200" width="200" style="object-fit: cover"/>
+          <h3 class="mt-2">This Key <br> <span style="color: hsl(190.5,100%,59.8%)">Passionate Software Developer</h3>
+          <i><span style="color: coral">4 Tahun</span> Pengalaman dalam Menciptakan Solusi Inovatif di Dunia Pemrograman</i>
+        </div>
+      </div>
+      <div class="row text-dark mt-4">
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Galeri Saya</h5>
+        <p class="card-text">Jelajahi dunia virtual dan augmented reality melalui koleksi pengalaman interaktif saya.</p>
+        <a href="/galeri" class="btn btn-dark d-block">Kunjungi</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Sosial Media</h5>
+        <p class="card-text">Terhubung dengan saya di dunia digital dan jelajahi pengalaman virtual yang saya bagikan.</p>
+        <a href="/sosial" class="btn btn-dark d-block">Temukan</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Hubungi Saya</h5>
+        <p class="card-text">Mari terhubung dan jelajahi pengalaman virtual bersama! Atur jadwal untuk sesi interaktif sekarang.</p>
+        <a href="/contact" class="btn btn-dark d-block">Hubungi Saya</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
